@@ -29,5 +29,36 @@ hello world
  file.syswrite("Hello")
 5
 
-file.syswrite("Hello")
+file.sysread(3)
 "Hel"
+
+File.exists?("w.txt")
+true
+
+ File.size?("w.txt")
+26
+
+File.readable?("w.txt")
+true
+
+File.writable?("w.txt")
+true
+
+File.executable?("w.txt")
+false
+
+File.open("w.txt") if File.exists?("w.txt")
+#<File:w.txt>
+
+File.rename("w.txt","ww.txt")
+=>0
+
+File.delete("ww.txt")
+=>1
+
+ begin
+ File.delete("ww.txt")
+ rescue Exception=>e
+ e.message
+ end
+"No such file or directory @ unlink_internal - ww.txt"
