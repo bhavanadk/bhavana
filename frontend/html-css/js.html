@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript</title>
+
+</head>
+<body>
+
+		<h1>click button</h1>
+		 <button onclick="myFunction()">Click me</button> 
+	<p id="demo"></p>
+
+<select id="mySelect" onchange="myFuntion()">
+  <option value="volvo">Volvo</option>
+  <option value="bmw">bmw</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="audi">Audi</option>
+</select>
+
+
+<div class="one">1</div>
+<div class="one">2</div>
+<div class="one">3</div>
+<div class="one">4</div>
+<button onclick="myFn()"> try</button>
+
+
+
+
+  <script>
+  	//var x = myFunction(10, 40);
+//console.log(10 + 40);
+   // alert(10 + 20);
+
+
+  	function myFunction()
+  	{
+  	var x = document.getElementById("mySelect").value;
+
+  			document.getElementById("demo").innerHTML = "welcome you selected:" + x;
+  		}
+
+  			function myFn(){
+  				var w=document.getElementsByClassName("one");
+  				w[3].innerHTML="hello";
+  			
+
+
+
+
+}
+
+  	
+
+
+  //	var bar = 5;
+//bar <<= 2;
+	//	console.log(bar);
+    //document.write(x);
+		//document.getElementById("demo1").innerHTML = "the time is?";
+
+	</script>
+
+</body>
+</html>

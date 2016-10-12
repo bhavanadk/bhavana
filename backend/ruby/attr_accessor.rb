@@ -1,12 +1,12 @@
 class Person
 	def name
-		 @name
+		puts @name
 		
 	end
 
 
 def name=(str)
-	@name=str
+	 @name=str
 	
 end
 end

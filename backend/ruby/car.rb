@@ -12,7 +12,7 @@
  		
  	end
  end
- s.Car.new
+ s=Car.new
 s.start
 s.stopped
 s.move

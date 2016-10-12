@@ -21,5 +21,4 @@ end
 h=HtmlDocument.new
 h.print
 x=XmlDocument.new
-x.print		
-
+x.print

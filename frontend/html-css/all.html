@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<div id="container1" style="display:none">
+		hello
+	</div>
+
+	<div id="container2" style="display:none">
+		world
+	</div>
+
+	<div id="container3" style="display:none">
+	hello folks!
+	</div>
+
+	<button onclick="myFunction(1)">try</button>
+
+	<script type="text/javascript">
+		function myFunction(i){
+			for(i=0;i<5;i++){console.log(i)}{
+				document.getElementById('container1').style.display = "block";
+				document.getElementById('container2').style.display = "none";
+				document.getElementById('container3').style.display = "none";
+				
+
+			}
+			for(i=0;i<5;i++){console.log(i)}{
+				
+				document.getElementById('container1').style.display = "none";
+				document.getElementById('container2').style.display = "block";
+				document.getElementById('container3').style.display = "none";
+							}
+		
+		for(i=0;i<5;i++){console.log(i)}{
+
+				document.getElementById('container1').style.display = "none";
+				document.getElementById('container2').style.display = "none";
+				document.getElementById('container3').style.display = "block";
+				
+
+		}
+	}
+	</script>
+</body>
+</html>

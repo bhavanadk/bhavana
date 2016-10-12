@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>gangout</title>
+</head>
+<body>
+	<img  class="img" src="gangout-logo.png">
+	<nav >
+			<a style="align:right color:black" onclick="HOME()">HOME </a>
+			<a style="align:right color:black" onclick="ABOUT()">ABOUT </a>
+			<a style=" align:right color:black" onclick="SIGNUP()">SIGNUP</a>
+	</nav>
+	<script type="text/javascript">
+	function dispHome(){
+	document.getElementById('HOME').style.display='block'
+		document.getElementById('ABOUT').style.display='none'
+
+	document.getElementById('SIGNUP').style.display='none'
+	
+}
+
+function dispAbout(){
+		document.getElementById('HOME').style.display='none'
+
+	document.getElementById('ABOUT').style.display='block'
+	document.getElementById('SIGNUP').style.display='none'
+	
+}
+
+function dispSignup(){
+		document.getElementById('HOME').style.display='none'
+
+	document.getElementById('ABOUT').style.display='none'
+	document.getElementById('SIGNUP').style.display='block'
+	
+}
+</script>
+	
+
+<img class="mySlides" src="slider1.png">
+<img class="mySlides" src="slider2.png">
+<img class="mySlides" src="slider3.png">
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+<h3 style="color:red">UPCOMING EVENTS</h3>
+
+<div class="event1" style="color:black border:10px 10px">
+<p>Event 1 title here</p>
+<p>signika Bold 20pt</p>
+<img  style="background-color:grey width:300px height:180px" class="img" src="default-image.png">
+<p style="color:red" >Past event</p>
+<p>Core Ruby workshop for Singnika</p>
+<img class="img" src="icon-location.png" alt="icon">Bangalore</img1>
+
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    jQuery("event1").onmouseover(function(){
+        jQuery("p").css("background-color", "yellow");
+    });
+
+</script>
+<p>Bangalore is always buzzing with activity and the little kiddos have enough happening to keep them happy- Food events, plays, sports, education programs and Games! Allow yourself some time with the little people and have fun filled days at Bangalore.</p>
+<p>Whenever we listen to stories, we imagine how the characters would be. In this session we will make simple puppets after the storytelling. This session will show children how they can have fun while making simple crafts in the form of puppets and still play with them and make more on their own at home!</p> 
+<p>While they may not look fancy and like store-bought toys, they will give children a sense of satisfaction as it will be a reflection of what they like.</p>
+
+</div>
+
+
+
+<h1 style="background-color:red font-color:white">About Us</h1>
+<p>Gangout Prior to the launch of Hangouts, Google had maintained several similar, but technologically separate messaging services and platforms across its suite of products. These have included the enterprise-oriented Google Talk (based on XMPP), Google+ Messenger, and the Hangouts feature of Google+</p>
+<p>which allows for group videoconferencing with up to 10 users at once. However, its increasingly fragmented and non-unified suite of messaging offerings was also facing growing competition from services such as Facebook Messenger, iMessage, and WhatsApp. A decision was made.</p> 
+<p>to scrap the existing Google Talk system and code a new messaging product through a collaboration with multiple development teams.</p>
+
+<table style="text-align:right">
+
+			</td>
+			<td>
+			<span><strong style="color:red">Learn more</strong></span>
+			<br>gangouts is hiring</br>
+			<br>Read the FAQ</br>
+			<br>Press enquiries</br>
+			<br>Get help</br>
+		</td>
+			</tr>
+		</table>
+
+
+
+<hr>
+<table>
+  
+<tr>
+<td><img class="img" src="Anoop.png"></td><td><h4>Camille Alexander,Operation Manager</h4><p>to scrap the existing Google Talk system and code a new messaging product through a collaboration with multiple development teams.</p></td>
+</tr>
+</table>
+<hr>
+<table>
+<tr>
+<td><img class="img" src="joshi.png"></td><td><h4>Colin Allen ,Team coach engineer</h4><p>to the Google Talk system and  a new through a with multiple teams.</p></td></tr></table>
+<hr>
+<table>
+  
+<tr>
+<td>
+<img class="img" src="kiran.png"></td><td><h4>Amy,community experience program manager</h4><p>to the Google Talk system and  a new through a with multiple teams.</p>
+</td></tr></table>
+<hr>
+
+<div id="footer" style="text-align:center background-color:grey  color:white font-size:0.85em">
+<p>Home<img class="img" src="icon-down-arrow.png">About us<img class="img" src="icon-down-arrow.png">Events<img class="img" src="icon-down-arrow.png">Communities<img class="img" src="icon-down-arrow.png">Blog<img class="img" src="icon-down-arrow.png">Terms<img class="img" src="icon-down-arrow.png">Privacy policies<img class="img" src="icon-down-arrow.png">contact us</p>
+<img class="img" src="gangout-logo-white.png">
+		<p > &copy; 2014 A production by qwinix technology inc.All rights reserved</p>
+		</div>
+
+</div>
+
+
+
+<h1 style="background-color:red font-color:white">Sign up</h1>
+<h4>Hi there it takes few minutes to sign up</h4>
+<p>its simple,a few click you can know about gangout or know whats happening around you, and you can setup your instrest group.A verification will be sent to you separately. Your account will be activate after validation.</p>
+
+<div>
+<label style="color:red";>First name</label><input type="text" id="name" onkeyup="myFunction()"/></br></br>
+<label style="color:red";>Last name</label><input type="text" id="name" onkeyup="myFunction()"/></br></br>
+<la
+bel style="color:red";>Mobile num</label><input type="text" id="name" onkeyup="myFunction()"/></br></br>
+<label style="color:red";>email</label><input type="text" id="name" onkeyup="myFunction()"/></br></br>
+</div>
+
+</div>
+
+</body>
+</html>

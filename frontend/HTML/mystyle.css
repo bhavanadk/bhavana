@@ -1,0 +1,8 @@
+*{background: black;}
+a:hover {
+	color:red !important;
+text-align:center;
+ }
+img {
+	background: yellow;
+}

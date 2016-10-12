@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="images (3).jpg" alt="alternate" width="500px" height="500px">
+
+<label>Enter your name:</label>
+ <input type="text" id="name" onkeydown="myFunction()">
+
+
+
+<script>
+function myFunction() {
+    var x = document.getElementById("name");
+    x.value = x.value.toLowerCase();
+
+}
+
+function bigImg(x){
+	x.src="car2.jpg"
+	}
+function normalImg(x){
+	x.src="car1.jpg"
+}
+
+	
+	</script>
+</body>
+</html>

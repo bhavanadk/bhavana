@@ -1,0 +1,49 @@
+p{color:red;
+text-align: center;}
+ul li{font-size: 24px;color:teal }
+section div{color:blue;}
+.hlight {background: yellow; text-align: left; color:grey;}
+
+#training{font-size: 14px;
+text-align: right;
+color:green;}
+
+div > h1{
+	color:gold;
+}
+ul > li{text transform: upper case}
+
+.disc{text-align: right;
+	text-indent:1cm;
+letter-spacing:5px;
+word-spacing: 8px;
+color:purple;}
+
+#cafe{
+	text-transform: uppercase;
+	text-decoration: overline
+}
+section p{	text-shadow:4px 5px 10px purple;
+	font-style: italic;
+	font-variant: small-caps;
+	font-weight: lighter;
+	font-size: 111px;
+	font-family: georgia;
+
+ }
+ section h4{font-stretch: wider;}
+
+ div h5 {margin:100px;}
+.alternate.image{border:10px outset red;
+					margin:10px 12px 11px 13px;
+					left: 10px;
+					top:5px;
+					position: relative;
+					background:yellow;}
+.anchor{font-size: 40px }
+.anchor:visited{color: red;opacity: .8;}
+.anchor:hover{color: green;opacity: .8;}					
+.anchor:active{color: blue;opacity: 1;}		
+
+ul ~ p{color:green;}			
+
